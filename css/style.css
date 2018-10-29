@@ -1,0 +1,50 @@
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times New Roman", serif;
+  /* The above can be written as: font: normal 0.75em/1.5em Georgia, "New Times Roman", serif; */
+  color: #777;
+  text-align: right;
+}
+
+/* class selector(applied to as many elements as you like) */
+.milk-text {
+  font: bold 2.6em "Georgia", serif;
+  text-shadow: 0 2px 3px #000;
+  color: white;
+}
+
+/* id selector(apply to one unique element per page) */
+#logo {
+  background: aqua;
+}
+
+/* descendent selector */
+#logo h1 {
+  font-family: cursive;
+}
+
+#logo h2 {
+  font-family: serif;
+}
+
+/* psudo selector */
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
